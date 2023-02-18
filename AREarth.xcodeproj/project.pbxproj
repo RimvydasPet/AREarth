@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BD4B7F85299E2C6B00916DAD /* ARDicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4B7F85299E2C6B00916DAD /* AREarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AREarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4B7F88299E2C6B00916DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD4B7F8A299E2C6B00916DAD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		BD4B7F8C299E2C6B00916DAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		BD4B7F7C299E2C6B00916DAD = {
 			isa = PBXGroup;
 			children = (
-				BD4B7F87299E2C6B00916DAD /* ARDicee */,
+				BD4B7F87299E2C6B00916DAD /* AREarth */,
 				BD4B7F86299E2C6B00916DAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,12 +47,12 @@
 		BD4B7F86299E2C6B00916DAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD4B7F85299E2C6B00916DAD /* ARDicee.app */,
+				BD4B7F85299E2C6B00916DAD /* AREarth.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BD4B7F87299E2C6B00916DAD /* ARDicee */ = {
+		BD4B7F87299E2C6B00916DAD /* AREarth */ = {
 			isa = PBXGroup;
 			children = (
 				BD4B7F88299E2C6B00916DAD /* AppDelegate.swift */,
@@ -62,15 +62,15 @@
 				BD4B7F91299E2C6C00916DAD /* Assets.xcassets */,
 				BD4B7F93299E2C6C00916DAD /* LaunchScreen.storyboard */,
 			);
-			path = ARDicee;
+			path = AREarth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD4B7F84299E2C6B00916DAD /* ARDicee */ = {
+		BD4B7F84299E2C6B00916DAD /* AREarth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD4B7F98299E2C6C00916DAD /* Build configuration list for PBXNativeTarget "ARDicee" */;
+			buildConfigurationList = BD4B7F98299E2C6C00916DAD /* Build configuration list for PBXNativeTarget "AREarth" */;
 			buildPhases = (
 				BD4B7F81299E2C6B00916DAD /* Sources */,
 				BD4B7F82299E2C6B00916DAD /* Frameworks */,
@@ -80,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = ARDicee;
+			name = AREarth;
 			productName = ARDicee;
-			productReference = BD4B7F85299E2C6B00916DAD /* ARDicee.app */;
+			productReference = BD4B7F85299E2C6B00916DAD /* AREarth.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BD4B7F80299E2C6B00916DAD /* Build configuration list for PBXProject "ARDicee" */;
+			buildConfigurationList = BD4B7F80299E2C6B00916DAD /* Build configuration list for PBXProject "AREarth" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD4B7F84299E2C6B00916DAD /* ARDicee */,
+				BD4B7F84299E2C6B00916DAD /* AREarth */,
 			);
 		};
 /* End PBXProject section */
@@ -341,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BD4B7F80299E2C6B00916DAD /* Build configuration list for PBXProject "ARDicee" */ = {
+		BD4B7F80299E2C6B00916DAD /* Build configuration list for PBXProject "AREarth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD4B7F96299E2C6C00916DAD /* Debug */,
@@ -350,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD4B7F98299E2C6C00916DAD /* Build configuration list for PBXNativeTarget "ARDicee" */ = {
+		BD4B7F98299E2C6C00916DAD /* Build configuration list for PBXNativeTarget "AREarth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD4B7F99299E2C6C00916DAD /* Debug */,

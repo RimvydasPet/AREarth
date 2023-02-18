@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ARDicee
+//  AREarth
 //
 //  Created by Rimvydas on 2023-02-16.
 //
