@@ -52,8 +52,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Create a session configuration
         let configuration = ARWorldTrackingConfiguration()
         // check if supports AR on device
-        print("Session is supported = \(ARConfiguration.isSupported)")
-        print("Session is supported = \(ARWorldTrackingConfiguration.isSupported)")
+//        print("Session is supported = \(ARConfiguration.isSupported)")
+//        print("Session is supported = \(ARWorldTrackingConfiguration.isSupported)")
         
 
         // Run the view's session
