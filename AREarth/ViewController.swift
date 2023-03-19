@@ -18,13 +18,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Set the view's delegate
         sceneView.delegate = self
-        
-        // Create a new scene
-//      Demo:  let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        
-       // let cube = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0.01)
+    
 //        later for some testing
 //        let text = SCNText()
+//        Create a new scene
         let sphere = SCNSphere(radius: 0.2)
         
         let material = SCNMaterial()
@@ -43,6 +40,15 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.scene.rootNode.addChildNode(node)
         
         sceneView.autoenablesDefaultLighting = true
+        let randomY = Float(arc4random_uniform(4) + 1) * (Float.pi/2)
+        
+        node.runAction(
+            SCNAction.rotateBy(
+                x: 0,
+                y: CGFloat(randomY * 100000),
+                z: 0,
+                duration: 100000)
+        )
         
     }
     
